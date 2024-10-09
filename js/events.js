@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "SCDI 2301",
             description:
                 "Build on your knowledge of Rag + Prompt Engineering with Bedrock & Sagemaker in this deep dive workshop. We'll cover advanced topics and techniques to help you take your skills to the next level. Join us on Monday, October 21, at 7:15 pm in SCDI 2301 to learn more!",
+            image: "../img/aws-logo.png",
             week: 43,
         },
         {
@@ -32,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "Kenna 104",
             description:
                 "New week, new AWS tech! This time we're diving into Computer Vision and exploring the world of Rekognition, Textrack, and OpenCV. Join us on Tuesday, October 29, at 7:15 pm in Kenna 104 to learn more!",
+            image: "../img/aws-logo.png",
             week: 44,
         },
         {
@@ -40,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "SCDI 2301",
             description:
                 "Ready to take your Computer Vision skills to the next level? Join us for a deep dive into Rekognition, Textrack, and OpenCV. We'll cover advanced topics and techniques to help you build on your knowledge and expertise. Join us on Monday, November 4, at 7:15 pm in SCDI 2301 to learn more!",
+            image: "../img/aws-logo.png",
             week: 45,
         },
         {
@@ -48,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "Kenna 104",
             description:
                 "Applying your AWS skills to data science with Python! Join us on Tuesday, November 12, at 7:15 pm in Kenna 104 to learn more!",
+            image: "../img/aws-logo.png",
             week: 46,
         },
         {
@@ -56,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "Kenna 216",
             description:
                 "Get ready for AWS hack this weekend with all the details for the event! From the data you'll have access to, to the best way to win the competition, we'll cover it all. Join us on Monday, October 14, at 7:15 pm in Kenna 216 to learn more!",
+            image: "../img/aws-logo.png",
             week: 46,
         },
     ];
