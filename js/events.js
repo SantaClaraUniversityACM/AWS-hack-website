@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description:
                 "Begin exploring the world of Rag + Prompt Engineering with Bedrock & Sagemaker. This workshop will provide an introduction to the tools and techniques used in the field, as well as a hands-on demo to get you started. Join us on Tuesday, October 15, at 7:15 pm in Kenna 104 to learn more!",
             image: "../img/aws-logo.png",
-            week: 42,
+            week: 41,
         },
         {
             title: "Deep Dive: Rag + Prompt Engineering w/ Bedrock & Sagemaker",
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description:
                 "Build on your knowledge of Rag + Prompt Engineering with Bedrock & Sagemaker in this deep dive workshop. We'll cover advanced topics and techniques to help you take your skills to the next level. Join us on Monday, October 21, at 7:15 pm in SCDI 2301 to learn more!",
             image: "../img/aws-logo.png",
-            week: 43,
+            week: 42,
         },
         {
             title: "Intro: Computer Vision & Intro to Rekognition, Textrack, and OpenCV",
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description:
                 "New week, new AWS tech! This time we're diving into Computer Vision and exploring the world of Rekognition, Textrack, and OpenCV. Join us on Tuesday, October 29, at 7:15 pm in Kenna 104 to learn more!",
             image: "../img/aws-logo.png",
-            week: 44,
+            week: 43,
         },
         {
             title: "Deep Dive: Computer Vision & Intro to Rekognition, Textrack, and OpenCV",
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description:
                 "Ready to take your Computer Vision skills to the next level? Join us for a deep dive into Rekognition, Textrack, and OpenCV. We'll cover advanced topics and techniques to help you build on your knowledge and expertise. Join us on Monday, November 4, at 7:15 pm in SCDI 2301 to learn more!",
             image: "../img/aws-logo.png",
-            week: 45,
+            week: 44,
         },
         {
             title: "Data science with Python",
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description:
                 "Applying your AWS skills to data science with Python! Join us on Tuesday, November 12, at 7:15 pm in Kenna 104 to learn more!",
             image: "../img/aws-logo.png",
-            week: 46,
+            week: 45,
         },
         {
             title: "Hackathon Prep",
@@ -61,24 +61,22 @@ document.addEventListener("DOMContentLoaded", function () {
             description:
                 "Get ready for AWS hack this weekend with all the details for the event! From the data you'll have access to, to the best way to win the competition, we'll cover it all. Join us on Monday, October 14, at 7:15 pm in Kenna 216 to learn more!",
             image: "../img/aws-logo.png",
-            week: 46,
+            week: 45,
         },
     ];
 
     function getCurrentWeek() {
         const currentDate = new Date();
-        const startDate = new Date(currentDate.getFullYear(), 0, 1);
 
-        const dayOfWeek = startDate.getDay();
-        const daysUntilWednesday = (3 - dayOfWeek + 7) % 7;
-        startDate.setDate(startDate.getDate() + daysUntilWednesday);
+        const startDate = new Date(currentDate.getFullYear(), 0, 1);
+        const startDayOfWeek = startDate.getDay();
+        const daysUntilFirstSunday = (6 - startDayOfWeek) % 7;
+        startDate.setDate(startDate.getDate() + daysUntilFirstSunday);
 
         const days = Math.floor(
             (currentDate - startDate) / (24 * 60 * 60 * 1000)
         );
-
-        const currentWeek = Math.ceil(days / 7) + 2;
-        console.log(currentWeek);
+        const currentWeek = Math.ceil(days / 7);
 
         return currentWeek;
     }
