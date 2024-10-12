@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
             date: "Oct. 15th, 2024",
             location: "Kenna 104",
             description:
-                "Begin exploring the world of Rag + Prompt Engineering with Bedrock & Sagemaker. This workshop will provide an introduction to the tools and techniques used in the field, as well as a hands-on demo to get you started. Join us on Tuesday, October 15, at 7:15 pm in Kenna 104 to learn more!",
-            image: "../img/aws-logo.png",
+                "Ready to learn about AI Engineering with Amazon? On Tuesday, October 15, from 5:45 - 6:45 pm in Kenna Room 104, join us for an AWS Workshop where you’ll dive into Prompt Engineering and experience live demos of Bedrock & Sagemaker—the AI tools Amazon uses! No experience is needed! This is an incredible opportunity to learn from an industry expert and get hands-on with AI technologies. Don't miss out on this exciting workshop!",
+            image: "../img/week3.png",
             week: 41,
         },
         {
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "SCDI 2301",
             description:
                 "Build on your knowledge of Rag + Prompt Engineering with Bedrock & Sagemaker in this deep dive workshop. We'll cover advanced topics and techniques to help you take your skills to the next level. Join us on Monday, October 21, at 7:15 pm in SCDI 2301 to learn more!",
-            image: "../img/aws-logo.png",
+            image: "../img/workshops.png",
             week: 42,
         },
         {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "Kenna 104",
             description:
                 "New week, new AWS tech! This time we're diving into Computer Vision and exploring the world of Rekognition, Textrack, and OpenCV. Join us on Tuesday, October 29, at 7:15 pm in Kenna 104 to learn more!",
-            image: "../img/aws-logo.png",
+            image: "../img/workshops.png",
             week: 43,
         },
         {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "SCDI 2301",
             description:
                 "Ready to take your Computer Vision skills to the next level? Join us for a deep dive into Rekognition, Textrack, and OpenCV. We'll cover advanced topics and techniques to help you build on your knowledge and expertise. Join us on Monday, November 4, at 7:15 pm in SCDI 2301 to learn more!",
-            image: "../img/aws-logo.png",
+            image: "../img/workshops.png",
             week: 44,
         },
         {
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "Kenna 104",
             description:
                 "Applying your AWS skills to data science with Python! Join us on Tuesday, November 12, at 7:15 pm in Kenna 104 to learn more!",
-            image: "../img/aws-logo.png",
+            image: "../img/workshops.png",
             week: 45,
         },
         {
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
             location: "Kenna 216",
             description:
                 "Get ready for AWS hack this weekend with all the details for the event! From the data you'll have access to, to the best way to win the competition, we'll cover it all. Join us on Monday, October 14, at 7:15 pm in Kenna 216 to learn more!",
-            image: "../img/aws-logo.png",
+            image: "../img/workshops.png",
             week: 45,
         },
     ];
