@@ -140,8 +140,6 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-body {
-}
 .logo {
   width: 75%;
 }
@@ -290,10 +288,6 @@ header .device-container .screen img {
   border-radius: 3px;
 }
 
-.btn-hero {
-  visibility: hidden;
-}
-
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -317,14 +311,19 @@ header .device-container .screen img {
     max-height: calc(0vh);
     margin: 100px auto 0;
   }
-  .btn-hero {
-    visibility: visible;
-  }
 }
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
     font-size: 50px;
   }
+}
+
+.fixed-height-btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
 }
 
 header .inline-button {
@@ -425,6 +424,7 @@ section.about .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

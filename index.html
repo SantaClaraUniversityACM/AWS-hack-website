@@ -84,14 +84,15 @@
 
 	<!-- I ran into issues of class "hero" styling from index.css not applying on the server, so I declared all the styling directly in the .html
 		otherwise, I would just use <div id="home" class="hero" style="max-height: 1080px"> -->
-	<div id="home"
-		style="max-height: 1080px; background: url('img/hero2024.png'); background-size: cover; background-repeat: no-repeat; background-position: center; text-align: center">
-		<div class="container">
-			<div style="margin-top: 75%; margin-bottom: 10%">
-				<a href="https://bit.ly/aws-hack-24"
-					class="btn btn-outline btn-xl page-scroll btn-hero inline-button no-decor">Sign Up
-					Here!</a>
-			</div>
+	<div id="home" style="position: relative; width: 100%; height: 80%; overflow: hidden;">
+		<video autoplay muted loop id="myVideo"
+			style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+			<source src="img/hero2024ani.mp4" type="video/mp4">
+		</video>
+		<div class="container" style="display: flex; justify-content: center;">
+			<a href="https://bit.ly/aws-hack-24"
+				class="btn btn-outline btn-xl page-scroll inline-button no-decor fixed-height-btn">Sign Up
+				Here!</a>
 		</div>
 	</div>
 
