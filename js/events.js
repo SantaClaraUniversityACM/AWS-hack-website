@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             title: "Hackathon Prep",
-            date: "Oct. 14th, 2024",
+            date: "Nov. 14th, 2024",
             location: "Kenna 216",
             description:
                 "Get ready for AWS hack this weekend with all the details for the event! From the data you'll have access to, to the best way to win the competition, we'll cover it all. Join us on Monday, October 14, at 7:15 pm in Kenna 216 to learn more!",
