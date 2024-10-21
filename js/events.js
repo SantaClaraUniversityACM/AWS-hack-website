@@ -19,11 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
             week: 41,
         },
         {
-            title: "Deep Dive: Rag + Prompt Engineering w/ Bedrock & Sagemaker",
+            title: "AWS Workshop Catch Up",
             date: "Oct. 21st, 2024",
             location: "SCDI 2301",
             description:
-                "Build on your knowledge of Rag + Prompt Engineering with Bedrock & Sagemaker in this deep dive workshop. We'll cover advanced topics and techniques to help you take your skills to the next level. Join us on Monday, October 21, at 7:15 pm in SCDI 2301 to learn more!",
+                "Missed our meeting last week? Want a second look at the topics covered by our AWS professionals? Then this workshop is for you! Join us TONIGHT for a look into resources for learning AI, a look at the AWS console interface, and an intro into the prompt engineering you'll be doing for the hackathon!",
             image: "../img/workshops.png",
             week: 42,
         },
