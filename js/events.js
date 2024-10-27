@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
             date: "Oct. 29th, 2024",
             location: "Kenna 104",
             description:
-                "New week, new AWS tech! This time we're diving into Computer Vision and exploring the world of Rekognition, Textrack, and OpenCV. Join us on Tuesday, October 29, at 7:15 pm in Kenna 104 to learn more!",
-            image: "../img/workshops.png",
+                "New week, new AWS tech! This time we're diving into Computer Vision and exploring the world of Rekognition, Textrack, and OpenCV. Join us on Tuesday, October 29, at 5:45 pm in Kenna 104 to learn more!",
+            image: "../img/AI Engineering with Amazon Speaker.png",
             week: 43,
         },
         {
