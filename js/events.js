@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
             week: 43,
         },
         {
-            title: "Deep Dive: Computer Vision & Intro to Rekognition, Textrack, and OpenCV",
+            title: "How to WIN AWS AI Hack",
             date: "Nov. 4th, 2024",
             location: "SCDI 2301",
             description:
-                "Ready to take your Computer Vision skills to the next level? Join us for a deep dive into Rekognition, Textrack, and OpenCV. We'll cover advanced topics and techniques to help you build on your knowledge and expertise. Join us on Monday, November 4, at 7:15 pm in SCDI 2301 to learn more!",
-            image: "../img/workshops.png",
+                "Want to make a winning impression at the AWS x INRIX Hackathon? Join us on Monday, November 4, for the How to WIN the AWS Hack Workshop in collaboration with ACM-G! This workshop will cover the prize breakdown, guidance on working effectively in hackathon teams, and example project ideas tailored for the competition. Whether you're new to hackathons or aiming to boost your skills, this workshop will help you make the most of the hackathon experience and give you an edge to win! Don't miss out!",
+            image: "../img/week 5.png",
             week: 44,
         },
         {
