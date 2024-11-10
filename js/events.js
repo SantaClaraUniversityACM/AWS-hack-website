@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
             date: "Nov. 12th, 2024",
             location: "Kenna 104",
             description:
-                "Applying your AWS skills to data science with Python! Join us on Tuesday, November 12, at 7:15 pm in Kenna 104 to learn more!",
-            image: "../img/workshops.png",
+                "Prepping for the hackathon? Our Data Science with Python Workshop is the perfect way to level up your data analysis skills! Happening on Tuesday, November 12, from 5:45 - 6:45 pm in Kenna 104, this session will cover beginner-friendly techniques to analyze and visualize data using Python. No prior experience is required, so bring your curiosity and dive into data science with us! Don't miss out!",
+            image: "../img/Data Science with Python.png",
             week: 45,
         },
         {
@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
             date: "Nov. 14th, 2024",
             location: "Kenna 216",
             description:
-                "Get ready for AWS hack this weekend with all the details for the event! From the data you'll have access to, to the best way to win the competition, we'll cover it all. Join us on Monday, October 14, at 7:15 pm in Kenna 216 to learn more!",
-            image: "../img/workshops.png",
+                "The hackathon countdown is on! Join us for our Hackathon Prep Workshop this Thursday, Nov. 14, at 7:15 pm in Kenna 216, where you'll learn how to access and leverage AWS resources and get all the insider tips you need for the weekend. Don't miss this last chance to prep, ask questions, and get set to build something incredible!",
+            image: "../img/AWS X INRIX HACK PREP.png",
             week: 45,
         },
     ];
@@ -89,8 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
         events.forEach((event) => {
             if (event.week === currentWeek) {
                 const eventHTML = `
-                <img src="${event.image}" alt="Event Flyer" style="width: 30rem; padding-right: 1em;">
-                <div class="col-md-8">
+                <img src="${event.image}" alt="Event Flyer" style="width: 30rem; padding-right: 1em; margin-bottom: 1em;">
+                <div class="col-md-8" style="margin-bottom: 1em;">
                     <h3><strong>${event.title}</strong></h3>
                     <p>${event.date} - ${event.location}</p>
                     <p>${event.description}</p>
