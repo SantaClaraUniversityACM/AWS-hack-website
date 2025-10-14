@@ -475,8 +475,11 @@ a.sponsor-link {
 div.sponsors-container {
   display: flex;
   justify-content: center;
+  justify-self: center;
   margin-top: 2em;
   flex-direction: row;
+  height: fit-content;
+  width: fit-content;
 }
 
 @media (max-width: 820px) {
