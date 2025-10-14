@@ -470,6 +470,8 @@ a.sponsor-link {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: fit-content;
+  height: fit-content;
 }
 
 div.sponsors-container {
