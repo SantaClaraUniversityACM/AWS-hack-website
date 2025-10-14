@@ -59,7 +59,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a class="page-scroll no-decor" href="https://bit.ly/aws-hack-24"><b>Sign Up</b></a>
+						<a class="page-scroll no-decor" href="https://tinyurl.com/aws-hack-2025"><b>Sign Up</b></a>
 					</li>
 					<li>
 						<a class="page-scroll no-decor" href="#workshops">Workshops</a>
@@ -84,16 +84,20 @@
 
 	<!-- I ran into issues of class "hero" styling from index.css not applying on the server, so I declared all the styling directly in the .html
 		otherwise, I would just use <div id="home" class="hero" style="max-height: 1080px"> -->
-	<div id="home" style="position: relative; width: 100%; height: 80%; overflow: hidden;">
-		<video autoplay muted loop id="myVideo"
+	<div id="home" class="landing-section">
+		<div class="header-group">
+			<h3 class="subheader-landing">SCU ACM presents...</h3>
+			<h1 class="header-landing">AWS x Inrix Hack</h1>
+			<h3 class="subheader-landing">October 25-26, 2025 • In-Person Event</h3>
+		</div>
+		<a href="https://tinyurl.com/aws-hack-2025"
+			class="btn btn-outline btn-xl page-scroll inline-button no-decor sign-up-btn">Sign Up
+			Here!</a>
+		<div class="landing-img-trim"></div>
+		<!-- <video autoplay muted loop id="myVideo"
 			style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
 			<source src="img/hero2024ani.mp4" type="video/mp4">
-		</video>
-		<div class="container" style="display: flex; justify-content: center;">
-			<a href="https://bit.ly/aws-hack-24"
-				class="btn btn-outline btn-xl page-scroll inline-button no-decor fixed-height-btn">Sign Up
-				Here!</a>
-		</div>
+		</video> -->
 	</div>
 
 	<section id="about" class="about">
@@ -101,16 +105,20 @@
 			<div class="col-sm-12 text-center">
 				<div class="section-heading">
 					<h2> Welcome to AWS x INRIX Hack </h2>
-					<h3> SCU's First Ever AI Hackathon, November 16th-17th, 2024 </h3>
+					<h3> SCU's Premier AI Hackathon, November 16th-17th, 2024 </h3>
 					<p class="text-muted">Want to make your own ChatGPT? Take advantage of AI technology used by
 						real professionals to make a difference!</p>
-					<p>Check out the Hack Pack (past slides, resoruces, etc) at <a href="https://bit.ly/awshackpack"
-							target="_blank">https://bit.ly/awshackpack</a></p>
-					<div style="display: flex; justify-content: center; margin-top: 2em;">
-						<img src="img/Responsible AI_logo.png" style="width: 200px;">
-						<h3 style="display: flex; align-self: center; margin-left: 1em;">Supported by SCU's&nbsp;<a
-								href="https://www.linkedin.com/company/scu-rai/posts/?feedView=all"
-								target="_blank">Responsible AI Program</a></h3>
+					<!-- <p>Check out the Hack Pack (past slides, resources, etc.) at <a href="https://bit.ly/awshackpack"
+							target="_blank">https://bit.ly/awshackpack</a></p> -->
+					<h3>Sponsors</h3>
+					<div class="sponsors-container">
+						
+						<!-- <a href="https://www.linkedin.com/company/scu-rai/posts/?feedView=all" target="_blank" class="sponsor-link">
+								<img src="img/Responsible AI_logo.png" class="sponsor">
+						</a> -->
+						<a href="https://www.scu.edu/cioccacenter/" target="_blank" class="sponsor-link">
+							<img src="img/logos/ciocca_center_logo.png" class="sponsor">
+						</a>
 					</div>
 
 					<!-- <h3> Interested in an INRIX internship? Apply <a href="https://app.jobvite.com/j?cj=okXnlfwJ&s=INRIXHack2022" target="_blank">here</a></h3>  -->
@@ -128,7 +136,7 @@
 
 	<section id="workshops" style="padding-top: 0;">
 		<div class="text-center">
-			<h2>AWS Workshop Schedule</h2>
+			<h2>To find the next workshop, check out <a href="https://www.scuacm.com/events">SCU ACM</a> for more details!</h2>
 			<p>We have AWS engineers coming in person to teach you about the tools you'll have access to for this
 				hackathon!</p>
 			<p>Looking for past slides, git repos, and tutorials? Check out our resources doc <a
@@ -136,24 +144,24 @@
 					target="_blank">here</a>
 			</p>
 		</div>
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="text-center">
-					<h2>This Week's Workshop</h2>
-				</div>
-				<div id="this-week-workshop"
+					<h2></h2>
+				</div> -->
+				<!-- <div id="this-week-workshop"
 					style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap;">
-					<!-- Added via JS -->
-				</div>
-			</div>
-			<hr>
+					
+				</div> -->
+			<!-- </div> -->
+			<!-- <hr>
 			<div class="row">
 				<h2 class="text-center">Future Workshops</h2>
 				<div id="future-workshops">
-					<!-- Added via JS -->
+					
 				</div>
-			</div>
-		</div>
+			</div> -->
+		<!-- </div> -->
 	</section>
 
 
@@ -214,7 +222,7 @@
 						<div class="row">
 							<div class="col-md-6 text-center">
 								<div class="text-center">
-									<h3>Day One: November 16th 2024</h4>
+									<h3>Day One: October 25, 2025</h4>
 								</div>
 
 								<table>
@@ -244,7 +252,7 @@
 									</tr>
 									<tr>
 										<td>1:30 PM</td>
-										<td>Lunch Break! 🥪 (Heafey: Atrium)</td>
+										<td>Lunch Break! 🥪 (Heafey Atrium)</td>
 									</tr>
 									<tr>
 										<td>2:45 PM</td>
@@ -260,7 +268,7 @@
 									</tr>
 									<tr>
 										<td>6:30 PM</td>
-										<td>Dinner break 🍕 (Heafey: Atrium)</td>
+										<td>Dinner break 🍕 (Heafey Atrium)</td>
 									</tr>
 									<tr>
 										<td>8:30 PM</td>
@@ -268,13 +276,13 @@
 									</tr>
 									<tr>
 										<td>10:00 PM</td>
-										<td>Mini Rave 🎧 (Heafey Atrium)</td>
+										<td>Super Smash Bros Tournament 🎮 (Heafey Atrium)</td>
 									</tr>
 								</table>
 							</div>
 							<div class="col-md-6 text-center">
 								<div class="text-center">
-									<h3>Day Two: November 17th 2023</h4>
+									<h3>Day Two: October 26, 2025</h4>
 								</div>
 								<table>
 									<tr>
@@ -324,20 +332,23 @@
 					<p>Create a full product that could be sold to companies with potential costs and benefits accounted
 						for using AWS services. Must use AWS services in some way. all types of projects are encouraged!
 					</p>
-					<p>1st Place: $1000 | 2nd Place: $500 | 3rd Place: $250 | Graduate: $500</p>
+					<p>1st Place: $1500 | 2nd Place: $500 | 3rd Place: $250 | Graduate: $500</p>
 					<hr />
 					<h3><b>Side Track</b>: Enhance transportation safety, efficiency, and sustainability</h3>
 					<p>Create a solution to a problem, air, land, and/or sea, that could say money, lives, or the
 						environment. Use of AWS tools preferred but not required. More focused for teams that would
 						prefer a starting topic
 					</p>
-					<p>1st Place: $750 | 2nd Place: $250 | Graduate: $250</p>
+					<p>1st Place: $750 | 2nd Place: $500</p>
 					<hr />
-					<h3><b>Additional Prize</b>: Best Representation of Responsible AI</h3>
+					<!-- <h3><b>Side Track</b>: Design an educational platform for HighView</h3>
+					<p>Details coming out soon!</p>
+					<p>Prizes TBD</p> -->
+					<!-- <h3><b>Additional Prize</b>: Best Representation of Responsible AI</h3>
 					<p>In line with SCU's AI vision, create a project that embodies the ethical and responsible use of
 						AI. All projects are considered for this prize
 					</p>
-					<p>Prize: $500</p>
+					<p>Prize: $500</p> -->
 				</div>
 			</div>
 		</div>
@@ -401,10 +412,10 @@
 	<section id="recap" class="recap">
 		<div class="container">
 			<h1>INRIX Hack Recap!</h1>
-			<h3>2023 Winners</h3>
-			<h4>We've hosting INRIX Hack before, but this time we are bringing in Amazon and adding AI to the projects!
+			<h3>2024 Winners</h3>
+			<h4>
 				Feel free to take a closer look at what people built last year on <a
-					href="https://inrix-hack-2023.devpost.com/" target="_blank">last year's Devpost contest</a>.</h4>
+					href="https://aws-inrix-hack-2024.devpost.com/" target="_blank">last year's Devpost contest</a>.</h4>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
@@ -416,30 +427,46 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner text-center">
 					<div class="item active">
-						<a href="https://devpost.com/software/capital-insights" target="_blank"><img
-								src="img/winners-2023/ugrd-1st.jpg" alt="Capital Insights"></a>
-						<h4>Undergraduate 1st Place: <strong>Capital Insights</strong></h4>
-						<span>Created by Luke Ponssen, Jonathan Preiss, Riley Heike</span>
+						<a href="https://devpost.com/software/tummyscout" target="_blank"><img
+								src="img/winners-2024/medispectra.jpg" alt="Medispectra"></a>
+						<h4>AI Track 1st Place: <strong>Medispectra</strong></h4>
+						<span>Created by Oumarou Dodo Garba, Emily Ramos, Benson Tran, Benson Tran, Richard Tseng, and Sargun Singh</span>
 					</div>
 					<div class="item">
-						<a href="https://devpost.com/software/insight-qk4gx7" target="_blank"><img
-								src="img/winners-2023/ugrd-2nd.jpg" alt="Insight"></a>
-						<h4>Undergraduate 2nd Place: <strong>Insight</strong></h4>
-						<span>Created by Tiffany Nguyen, Lindsey Leong, Kara Barrese, Pragnya Vijayan, Irene Chang,
-							Maddie Follosco</span>
+						<a href="https://devpost.com/software/nezerac" target="_blank"><img
+								src="img/winners-2024/nezerac.png" alt="Nezerac"></a>
+						<h4>AI Track 2nd Place: <strong>Nezerac</strong></h4>
+						<span>Created by Zackaria Ghanbari, Matthew Lau, Sola Kawahara, Jason Wu, Max Blennemann, and Raj Kalra</span>
 					</div>
 					<div class="item">
-						<a href="https://devpost.com/software/app-h2mex7" target="_blank"><img
-								src="img/winners-2023/ugrd-3rd.jpg" alt="Parking, Bus, & Jam (PB&J)"></a>
-						<h4>Undergraduate 3rd Place: <strong>Park, Bus, & Jam (PB&J)</strong></h4>
-						<span>Created by Andrew Collins, Lucas Jablon, Isaac Orais, Johan Kou, Leo Chen, Riley
-							Wong</span>
+						<a href="https://devpost.com/software/ascend-30rve2" target="_blank"><img
+								src="img/winners-2024/ascend.jpg" alt="Ascend"></a>
+						<h4>AI Track 3rd Place: <strong>Ascend</strong></h4>
+						<span>Created by Tiffany Nguyen, Lindsey Leong, Pragnya Vijayan, Irene Chang, Maddie Follosco, and Lydia Martin</span>
 					</div>
 					<div class="item">
-						<a href="https://devpost.com/software/talk-data-to-me" target="_blank"><img
-								src="img/winners-2023/grad-1st.jpg" alt="Talk Data To Me"></a>
-						<h4>Graduate 1st Place: <strong>Talk Data To Me</strong></h4>
-						<span>Created by Billy Zhang, Shamli Ingole, Inchara Raveendra, Xiaoming Huang</span>
+						<a href="https://devpost.com/software/emergencyai" target="_blank"><img
+								src="img/winners-2024/emergencyai.jpg" alt="Talk Data To Me"></a>
+						<h4>AI Track Graduate Winner: <strong>EmergencyAI</strong></h4>
+						<span>Created by Tecson Gacrama, Rajashekar Vennavelli, Zheng Zhou, Marcus Caleb Chiong, and Yu Cheng Wu</span>
+					</div>
+					<div class="item">
+						<a href="https://devpost.com/software/firewire" target="_blank"><img
+								src="img/winners-2024/firewire.jpg" alt="Firewire"></a>
+						<h4>Transportation Track 1st Place: <strong>Firewire</strong></h4>
+						<span>Created by Grant Johnson, Jack Landers, Evan Stokdyk, John Alvarado, Nolan Fallin, and Michael Sun</span>
+					</div>
+					<div class="item">
+						<a href="https://devpost.com/software/hilairy" target="_blank"><img
+								src="img/winners-2024/littercator.jpg" alt="Nezerac"></a>
+						<h4>Transportation Track 2nd Place & 1st Best Use of Responsible AI: <strong>Littercator</strong></h4>
+						<span>Created by Beatrice Hackman, Josh Kindarara, Ethan Sychango, Hugo Muro Avila, Alexander Lopes, and Hilary Le</span>
+					</div>
+					<div class="item">
+						<a href="https://devpost.com/software/safemap-sj" target="_blank"><img
+								src="img/winners-2024/safemapsj.jpg" alt="Ascend"></a>
+						<h4>2nd Best Use of Responsible AI: <strong>SafeMap SJ</strong></h4>
+						<span>Created by Ivan Jauregui, Thalen Abadia, Khang Nguyen, Berk Vakar, Thatcher Cattell, and Annika Batra</span>
 					</div>
 				</div>
 				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -474,7 +501,6 @@
 				<br />
 				<div class="logos text-center">
 					<a href="https://discord.gg/G242hXD" target="_blank"><img src="img/logos/logo-discord.png"></a>
-					<a href="https://scuacm.slack.com" target="_blank"><img src="img/logos/logo-slack.png"></a>
 					<a href="https://www.instagram.com/scu_acm/" target="_blank"><img
 							src="img/logos/logo-instagram.png"></a>
 					<a href="mailto:acm@scu.edu" target="_top"><img src="img/logos/logo-email.png"></a>
