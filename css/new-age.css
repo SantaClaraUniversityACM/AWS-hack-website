@@ -4,23 +4,19 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-
-
-
-
 /**********************************************/
 /**************** Overall *********************/
 /**********************************************/
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -30,7 +26,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 a {
   -webkit-transition: all 0.35s;
@@ -67,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -79,7 +75,7 @@ p {
 .text-primary {
   color: #307682;
 }
-.no-gutter > [class*='col-'] {
+.no-gutter > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -89,12 +85,12 @@ p {
   /*border-color: #307682;
   border: 1px solid;*/
 }
-.btn-special{
+.btn-special {
   background-color: white;
   color: #002d72;
 }
-.btn-special-text{
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+.btn-special-text {
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
@@ -109,7 +105,7 @@ p {
   /*border-color: #002d72;*/
 }
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
@@ -144,10 +140,6 @@ img::-moz-selection {
   width: 75%;
 }
 
-
-
-
-
 /**********************************************/
 /**************** NavBar **********************/
 /**********************************************/
@@ -157,12 +149,12 @@ img::-moz-selection {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
   color: white;
@@ -181,7 +173,7 @@ img::-moz-selection {
   background-color: #051740;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
@@ -220,7 +212,7 @@ img::-moz-selection {
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }*/
-   .navbar-default.affix {
+  .navbar-default.affix {
     background-color: #051740;
     border-color: rgba(34, 34, 34, 0.1);
   }
@@ -243,8 +235,6 @@ img::-moz-selection {
     background-color: transparent;
   }
 }
-
-
 
 /**********************************************/
 /**************** Hero Image ******************/
@@ -335,9 +325,6 @@ header .inline-button {
   margin: 0% 1% 0% 1%;
 }
 
-
-
-
 /**********************************************/
 /************* Overall Sections ***************/
 /**********************************************/
@@ -347,10 +334,6 @@ section {
 section h2 {
   font-size: 50px;
 }
-
-
-
-
 
 /**********************************************/
 /************* Sponsors Section ***************/
@@ -378,19 +361,18 @@ section.sponsors .badges img {
   }
 }
 #bigdatafed {
-    background: white;
+  background: white;
 }
 
-section.sponsors .logos img{
+section.sponsors .logos img {
   width: 6%;
   height: auto;
 }
 
-section.sponsors img{
+section.sponsors img {
   width: 100%;
   height: auto;
 }
-
 
 /**********************************************/
 /************* About Section ******************/
@@ -419,7 +401,7 @@ section.about .device-container {
 }
 section.about .feature-item {
   text-align: center;
-/*  margin-bottom: 100px;*/
+  /*  margin-bottom: 100px;*/
 }
 section.about .feature-item h3 {
   font-size: 25px;
@@ -490,7 +472,7 @@ div.sponsors-container {
   img.sponsor {
     height: 100px;
   }
-} 
+}
 
 /**********************************************/
 /************* Recap Section ******************/
@@ -502,10 +484,10 @@ section.recap .section-heading h2 {
   margin-top: -100px;
 }
 section.recap img {
-    max-height: 75%;
-    max-width: 75%;
-    display: block;
-    margin: auto;
+  max-height: 75%;
+  max-width: 75%;
+  display: block;
+  margin: auto;
 }
 
 /* CSS for youtube video */
@@ -532,10 +514,6 @@ section.recap img {
   max-width: 600px;
 }
 
-
-
-
-
 /**********************************************/
 /************ Signups Section *****************/
 /**********************************************/
@@ -546,7 +524,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/background.jpg');
+  background-image: url("../img/background.jpg");
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -573,11 +551,6 @@ section.cta .overlay {
   top: 0;
   left: 0;
 }
-
-
-
-
-
 
 /**********************************************/
 /********* Contact (DEPRECATED) ***************/
@@ -623,11 +596,6 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
-
-
-
-
-
 /**********************************************/
 /************** Mentors Section ***************/
 /**********************************************/
@@ -658,9 +626,6 @@ section.mentors .blockquote-footer {
     font-size: 70px;
   }
 }
-
-
-
 
 /**********************************************/
 /*********** Footer (DEPRECATED) **************/
@@ -712,12 +677,12 @@ a.no-decor {
 
 .page-scroll::selection,
 .page-scroll.active,
-.page-scroll:hover{
+.page-scroll:hover {
   color: #002d72;
 }
 
-.carousel-caption{
-  background-color: rgb(0, 0, 0, .7);
+.carousel-caption {
+  background-color: rgb(0, 0, 0, 0.7);
 }
 
 /*.row {
@@ -727,27 +692,27 @@ a.no-decor {
 .col-md-1 {
     display:inline-block;
 }*/
-.logos a{
+.logos a {
   padding: 30px !important;
 }
 
 /* I created a new footer class below to make the social media logos flex */
 
-section.footer div.logos{
+section.footer div.logos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2em;
 }
 
-section.footer div.logos{
+section.footer div.logos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
 }
 
-section.footer div.logos img{
+section.footer div.logos img {
   width: clamp(40px, 5vw, 75px);
 }
 
@@ -784,14 +749,13 @@ div.header-group {
   height: fit-content;
   justify-content: center;
   flex-direction: column;
-  margin:auto;
+  margin: auto;
   width: fit-content;
   justify-self: center;
 }
 
 div.landing-img-trim {
   min-width: 100%;
-  background-image: url("../img/aws_inrix_landing.png");
   background-size: contain;
   background-repeat: repeat-x;
   height: 250px;
@@ -800,7 +764,7 @@ div.landing-img-trim {
 }
 
 .landing-section {
-  background-image: url("../img/landing_bg.png");
+  background-image: url("../img/AWSA10hero2026.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -817,12 +781,12 @@ div.landing-img-trim {
 .sign-up-btn {
   margin: auto;
   justify-self: center;
-  -webkit-box-shadow:0px 0px 22px 7px rgba(255,255,255,0.27);
--moz-box-shadow: 0px 0px 22px 7px rgba(255,255,255,0.27);
-box-shadow: 0px 0px 22px 7px rgba(255,255,255,0.27);
+  -webkit-box-shadow: 0px 0px 22px 7px rgba(255, 255, 255, 0.27);
+  -moz-box-shadow: 0px 0px 22px 7px rgba(255, 255, 255, 0.27);
+  box-shadow: 0px 0px 22px 7px rgba(255, 255, 255, 0.27);
 }
 
-@media(max-width: 650px) {
+@media (max-width: 650px) {
   .header-landing {
     font-size: 2em;
   }
