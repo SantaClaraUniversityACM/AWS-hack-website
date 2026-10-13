@@ -756,7 +756,6 @@ div.header-group {
 
 div.landing-img-trim {
   min-width: 100%;
-  background-image: url("../img/aws_inrix_landing.png");
   background-size: contain;
   background-repeat: repeat-x;
   height: 250px;
@@ -765,7 +764,7 @@ div.landing-img-trim {
 }
 
 .landing-section {
-  background-image: url("../img/hero2026.png");
+  background-image: url("../img/AWSA10hero2026.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
