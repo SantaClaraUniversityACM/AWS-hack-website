@@ -1,0 +1,27 @@
+{
+  "name": "aws-hack-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantaClaraUniversityACM/AWS-hack-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SantaClaraUniversityACM/AWS-hack-website/issues"
+  },
+  "homepage": "https://github.com/SantaClaraUniversityACM/AWS-hack-website#readme",
+  "devDependencies": {
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
